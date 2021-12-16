@@ -1,0 +1,18 @@
+﻿<Window x:Class="ligszlocinu.TutorialWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ligszlocinu"
+        mc:Ignorable="d"
+        Title="Liga Zločinu" Height="450" Width="800" ResizeMode="CanMinimize">
+    <Grid>
+        <Button Content="Opustit Level" Name="exitButton" HorizontalAlignment="Left" Margin="707,10,0,0" VerticalAlignment="Top" Width="75" Click="exitButton_Click"/>
+        <TextBlock Name="Text"  HorizontalAlignment="Left" Margin="10,30,0,0" TextWrapping="Wrap" Text="Vítej dektektive, dnes tě tu vidím poprvé. Pojď za mnou a já ti vysvětlím jak všechno funguje. Klikni na tlačítko OK." VerticalAlignment="Top" Height="70" Width="774"/>
+        <Button Name="button1" Content="OK" HorizontalAlignment="Left" Margin="123,182,0,0" VerticalAlignment="Top" Width="100" Click="button1_Click"/>
+        <Button Name="button2" Content="OK" HorizontalAlignment="Left" Margin="592,182,0,0" VerticalAlignment="Top" Width="100" Click="button2_Click">
+       
+        </Button>
+
+    </Grid>
+</Window>

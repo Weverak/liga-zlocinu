@@ -1,0 +1,14 @@
+﻿<Window x:Class="ligszlocinu.LevelsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ligszlocinu"
+        mc:Ignorable="d"
+        Title="Liga zločinu" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        
+        <Button Content="Tutoriál" Name="tutorialButton" HorizontalAlignment="Left" Margin="29,26,0,0" VerticalAlignment="Top" Width="133" Height="48" Click="tutorialButton_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="160,26,0,0" VerticalAlignment="Top" Width="133" Height="48" RenderTransformOrigin="1.263,0.552"/>
+    </Grid>
+</Window>
